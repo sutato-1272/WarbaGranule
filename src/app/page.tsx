@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { MaterialEstimator } from '@/components/material-estimator';
-import { CheckCircle2, Leaf, Palette, Phone, PlayCircle, ShieldCheck, SoccerBall, ThumbsUp, Truck, Footprints, MessageCircle } from 'lucide-react';
+import { Leaf, Phone, ShieldCheck, ThumbsUp, Truck, MessageCircle } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -49,19 +49,23 @@ function HeroSection() {
 
 function ArticleSection() {
   return (
-    <article className="container mx-auto max-w-5xl px-4 py-16 md:px-6 md:py-24">
+    <article id="produk" className="container mx-auto max-w-5xl px-4 py-16 md:px-6 md:py-24 scroll-mt-20">
       <div className="prose prose-lg max-w-none dark:prose-invert prose-headings:font-headline prose-headings:text-primary prose-strong:text-foreground">
+        <h2 className="text-center">Produk Unggulan Granule Kami</h2>
+        <p className="text-center text-xl text-foreground/80 !mb-12 not-prose">
+            Dari playground yang aman hingga lapangan olahraga berstandar tinggi, temukan solusi granule EPDM dan SBR terbaik yang kami produksi dan distribusikan untuk setiap kebutuhan proyek Anda.
+        </p>
         <p>
           Selamat datang di pusat solusi <strong>granule EPDM</strong> terlengkap di Indonesia. Kami adalah <strong>produsen granule warna EPDM</strong>, <strong>distributor granule hitam</strong>, sekaligus <strong>supplier granule EPDM</strong> terpercaya yang siap memenuhi segala kebutuhan proyek Anda. Dengan pengalaman bertahun-tahun, kami mendedikasikan diri untuk menyediakan produk berkualitas premium yang tidak hanya estetis, tetapi juga aman, tahan lama, dan ramah lingkungan. Apakah Anda sedang membangun taman bermain anak, lintasan lari profesional, atau lapangan futsal berstandar internasional? Kami memiliki solusi yang tepat. Kami <strong>jual granule warna EPDM</strong> dan <strong>granule hitam</strong> dengan harga kompetitif dan layanan pengiriman ke seluruh pelosok negeri, dari Aceh hingga Papua.
         </p>
         
-        <h2 id="granule-warna">Granule Warna EPDM: Solusi Terbaik untuk Playground & Jogging Track</h2>
+        <h3 id="granule-warna">Granule Warna EPDM: Solusi Terbaik untuk Playground & Jogging Track</h3>
         <p>
           Ketika berbicara tentang keamanan dan estetika untuk area rekreasi, <strong>granule warna EPDM</strong> adalah jawabannya. Material ini menjadi pilihan utama bagi para kontraktor dan pengembang fasilitas publik karena fleksibilitas dan keunggulannya yang tak tertandingi. Sebagai <strong>pabrik granule warna EPDM</strong> terkemuka, kami memastikan setiap butir granule yang kami produksi memenuhi standar kualitas dan keamanan tertinggi.
         </p>
         <Image src="https://placehold.co/1200x600" alt="Playground anak-anak dengan lantai granule warna EPDM" width={1200} height={600} className="w-full rounded-lg shadow-lg" data-ai-hint="colorful playground" />
 
-        <h3 className="mt-8">Keunggulan Utama Granule Warna EPDM dari Kami</h3>
+        <h4 className="mt-8">Keunggulan Utama Granule Warna EPDM dari Kami</h4>
         <p>
           Memilih <strong>supplier granule warna EPDM</strong> yang tepat adalah kunci keberhasilan proyek Anda. Berikut adalah alasan mengapa produk kami menjadi pilihan terbaik di pasar:
         </p>
@@ -72,7 +76,7 @@ function ArticleSection() {
           <li><strong>Ramah Lingkungan dan Bebas Racun:</strong> Kami berkomitmen pada keberlanjutan. Granule kami diproduksi menggunakan bahan baku berkualitas dan tidak mengandung zat berbahaya (non-toxic), sehingga aman untuk anak-anak dan lingkungan sekitar.</li>
         </ul>
         
-        <h3>Aplikasi Granule Warna EPDM</h3>
+        <h4>Aplikasi Granule Warna EPDM</h4>
         <p>
           Fleksibilitas produk kami memungkinkannya digunakan dalam berbagai aplikasi. Sebagai <strong>distributor granule warna EPDM</strong> dengan jangkauan nasional, kami telah melayani berbagai proyek:
         </p>
@@ -87,13 +91,13 @@ function ArticleSection() {
           Kami <strong>jual granule warna EPDM</strong> dalam berbagai kemasan yang dapat disesuaikan dengan volume proyek Anda. Hubungi tim kami untuk konsultasi mengenai <strong>harga granule EPDM per m2</strong> atau per kg.
         </p>
 
-        <h2 id="granule-hitam">Granule Hitam (SBR): Solusi Andal untuk Lapangan Futsal & Mini Soccer</h2>
+        <h3 id="granule-hitam">Granule Hitam (SBR): Solusi Andal untuk Lapangan Futsal & Mini Soccer</h3>
         <p>
           Untuk lapangan olahraga yang membutuhkan daya tahan tinggi dan performa optimal, <strong>granule hitam</strong> atau yang sering disebut granule SBR (Styrene-Butadiene Rubber) adalah pilihan yang paling efisien dan ekonomis. Sebagai <strong>produsen granule hitam</strong> yang berpengalaman, kami mengolah bahan baku karet daur ulang berkualitas tinggi menjadi granule yang sempurna untuk infill rumput sintetis.
         </p>
         <Image src="https://placehold.co/1200x600" alt="Lapangan futsal dengan rumput sintetis dan infill granule hitam" width={1200} height={600} className="w-full rounded-lg shadow-lg" data-ai-hint="futsal field" />
         
-        <h3 className="mt-8">Keunggulan Granule Hitam Produksi Kami</h3>
+        <h4 className="mt-8">Keunggulan Granule Hitam Produksi Kami</h4>
         <p>
             Memilih kami sebagai <strong>supplier granule hitam</strong> Anda berarti Anda berinvestasi pada kualitas dan durabilitas. 
         </p>
@@ -107,11 +111,11 @@ function ArticleSection() {
           Sebagai <strong>pabrik granule hitam</strong> yang berfokus pada kualitas, kami memastikan setiap produk bebas dari kontaminan logam atau material berbahaya lainnya. Proses produksi kami yang canggih menjamin ukuran granule yang seragam untuk hasil pemasangan yang sempurna.
         </p>
 
-        <h2 id="mesh-20">Mesh 20 EPDM: Performa Unggul untuk Cairan Ban Tubeless</h2>
+        <h3 id="mesh-20">Mesh 20 EPDM: Performa Unggul untuk Cairan Ban Tubeless</h3>
         <p>
           Tidak hanya berfokus pada lantai rekreasi, kami juga merambah ke sektor industri otomotif dengan menyediakan <strong>Mesh 20 EPDM</strong>. Ini adalah bubuk karet EPDM super halus yang menjadi komponen krusial dalam pembuatan cairan anti-bocor untuk ban tubeless.
         </p>
-        <h3>Mengapa Mesh 20 EPDM Kami Pilihan Terbaik?</h3>
+        <h4>Mengapa Mesh 20 EPDM Kami Pilihan Terbaik?</h4>
         <ul>
             <li><strong>Elastisitas Superior:</strong> Ukuran partikel yang sangat halus dan sifat elastis EPDM memastikan cairan dapat menutup lubang pada ban dengan cepat dan efektif.</li>
             <li><strong>Stabilitas Kimia:</strong> Material EPDM tahan terhadap berbagai reaksi kimia, memastikan cairan ban tetap stabil dan tidak merusak velg atau bagian dalam ban.</li>
@@ -127,7 +131,7 @@ function ArticleSection() {
 function ProductComparisonTable() {
     return (
         <>
-            <h2 id="perbandingan">Perbandingan Produk Granule Kami</h2>
+            <h3>Perbandingan Cepat Produk Granule Kami</h3>
             <div className="overflow-x-auto">
                 <Table className="my-8">
                     <TableHeader>
@@ -178,7 +182,7 @@ function ProductComparisonTable() {
 
 function EstimatorSection() {
   return (
-    <section id="estimasi" className="w-full py-16 md:py-24 bg-primary/5">
+    <section id="estimasi" className="w-full py-16 md:py-24 bg-primary/5 scroll-mt-20">
       <div className="container mx-auto px-4 md:px-6">
         <MaterialEstimator />
       </div>
@@ -194,7 +198,7 @@ function WhyUsSection() {
         { icon: <Leaf className="h-8 w-8 text-accent"/>, title: "Dukungan Ramah Lingkungan", description: "Menggunakan bahan baku pilihan yang mendukung keberlanjutan lingkungan." }
     ]
     return (
-        <section id="mengapa-kami" className="w-full py-16 md:py-24">
+        <section id="mengapa-kami" className="w-full py-16 md:py-24 scroll-mt-20">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center">
                     <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">Kepercayaan Anda, Komitmen Kami</h2>
@@ -230,7 +234,7 @@ function ProductGallerySection() {
         { src: "https://placehold.co/400x400", alt: "Granule Hitam SBR", title: "Hitam Klasik", hint: "black granules" },
     ];
     return (
-        <section id="galeri" className="w-full py-16 md:py-24 bg-primary/5">
+        <section id="galeri" className="w-full py-16 md:py-24 bg-primary/5 scroll-mt-20">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center">
                     <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">Galeri Produk Kami</h2>
@@ -278,7 +282,7 @@ function FAQSection() {
     ];
 
     return (
-        <section id="faq" className="w-full py-16 md:py-24">
+        <section id="faq" className="w-full py-16 md:py-24 scroll-mt-20">
             <div className="container mx-auto max-w-4xl px-4 md:px-6">
                 <div className="text-center">
                     <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">Pertanyaan yang Sering Diajukan (FAQ)</h2>
@@ -303,7 +307,7 @@ function FAQSection() {
 
 function CTASection() {
     return (
-        <section id="kontak" className="w-full py-16 md:py-24 bg-primary/10">
+        <section id="kontak" className="w-full py-16 md:py-24 bg-primary/10 scroll-mt-20">
             <div className="container mx-auto">
                 <Card className="max-w-4xl mx-auto shadow-xl bg-card">
                     <div className="grid grid-cols-1 md:grid-cols-2">
