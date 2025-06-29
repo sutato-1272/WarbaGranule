@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { CheckCircle, Users, HardHat, Award } from 'lucide-react';
@@ -79,10 +80,10 @@ function ArticleSection() {
             Membeli material berkualitas hanyalah setengah dari cerita. Pemasangan yang tepat menentukan daya tahan, keamanan, dan estetika lantai Anda untuk tahun-tahun mendatang.
         </p>
         <p>
-          Anda telah memilih **granule EPDM warna** atau **granule hitam SBR** kualitas terbaik dari <a href="/#produk">WarnaGranule Solutions</a>. Langkah selanjutnya yang tak kalah krusial adalah proses pemasangan. Kesalahan dalam aplikasi dapat menyebabkan permukaan tidak rata, mudah rusak, atau bahkan tidak aman untuk digunakan. Inilah mengapa menggunakan **jasa pemasangan lantai karet** profesional bukan lagi sebuah pilihan, melainkan sebuah investasi untuk memastikan hasil akhir yang sempurna.
+          Anda telah memilih <strong>granule EPDM warna</strong> atau <strong>granule hitam SBR</strong> kualitas terbaik dari <a href="/#produk">WarnaGranule Solutions</a>. Langkah selanjutnya yang tak kalah krusial adalah proses pemasangan. Kesalahan dalam aplikasi dapat menyebabkan permukaan tidak rata, mudah rusak, atau bahkan tidak aman untuk digunakan. Inilah mengapa menggunakan <strong>jasa pemasangan lantai karet</strong> profesional bukan lagi sebuah pilihan, melainkan sebuah investasi untuk memastikan hasil akhir yang sempurna.
         </p>
         <p>
-          Sebagai **aplikator lantai karet** dan **kontraktor playground** berpengalaman, kami memahami setiap detail teknis yang dibutuhkan. Mulai dari persiapan permukaan (sub-base), pencampuran material dengan lem binder PU yang tepat, hingga teknik pengecoran dan pemadatan yang benar. Kami memastikan setiap meter persegi pekerjaan memenuhi standar keamanan dan kualitas tertinggi.
+          Sebagai <strong>aplikator lantai karet</strong> dan <strong>kontraktor playground</strong> berpengalaman, kami memahami setiap detail teknis yang dibutuhkan. Mulai dari persiapan permukaan (sub-base), pencampuran material dengan lem binder PU yang tepat, hingga teknik pengecoran dan pemadatan yang benar. Kami memastikan setiap meter persegi pekerjaan memenuhi standar keamanan dan kualitas tertinggi.
         </p>
 
         <Image src="https://placehold.co/1200x600" alt="Tim aplikator lantai karet sedang bekerja meratakan granule EPDM" width={1200} height={600} className="w-full rounded-lg shadow-lg" data-ai-hint="construction worker flooring" />
@@ -98,7 +99,7 @@ function ArticleSection() {
           <li><strong>Pemasangan Infill Granule SBR:</strong> Jasa pengisian granule hitam untuk lapangan futsal atau mini soccer dengan rumput sintetis, memastikan stabilitas dan performa lapangan yang optimal.</li>
         </ul>
         <p>
-          Kami tidak hanya fokus pada **biaya pemasangan lantai karet** yang kompetitif, tetapi juga pada kualitas pengerjaan. Percayakan proyek Anda kepada kami, dan dapatkan hasil yang tidak hanya indah dipandang, tetapi juga awet dan fungsional.
+          Kami tidak hanya fokus pada <strong>biaya pemasangan lantai karet</strong> yang kompetitif, tetapi juga pada kualitas pengerjaan. Percayakan proyek Anda kepada kami, dan dapatkan hasil yang tidak hanya indah dipandang, tetapi juga awet dan fungsional.
         </p>
       </div>
     </article>
@@ -219,3 +220,5 @@ function CTASection() {
         </section>
     );
 }
+
+    

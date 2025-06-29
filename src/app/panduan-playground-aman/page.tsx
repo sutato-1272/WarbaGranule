@@ -73,7 +73,7 @@ function ArticleSection() {
         
         <h2>Mengapa Playground yang Aman Bukan Sekadar Pilihan?</h2>
         <p>
-          Membangun playground seringkali berfokus pada pilihan ayunan atau perosotan yang menarik. Namun, fondasi dari sebuah area bermain yang hebat adalah **keamanan**. Menurut data global, sebagian besar cedera di playground terjadi akibat jatuh ke permukaan yang keras. Inilah mengapa investasi pada permukaan yang tepat, seperti <strong>lantai karet EPDM</strong>, bukan lagi kemewahan, melainkan sebuah keharusan untuk melindungi aset paling berharga kita: anak-anak.
+          Membangun playground seringkali berfokus pada pilihan ayunan atau perosotan yang menarik. Namun, fondasi dari sebuah area bermain yang hebat adalah <strong>keamanan</strong>. Menurut data global, sebagian besar cedera di playground terjadi akibat jatuh ke permukaan yang keras. Inilah mengapa investasi pada permukaan yang tepat, seperti <strong>lantai karet EPDM</strong>, bukan lagi kemewahan, melainkan sebuah keharusan untuk melindungi aset paling berharga kita: anak-anak.
         </p>
         <p>
           Artikel ini adalah panduan lengkap Anda, yang akan membawa Anda melalui setiap langkah penting dalam proses <strong>membuat playground</strong>, memastikan hasil akhirnya adalah ruang yang aman, tahan lama, dan dicintai oleh anak-anak.
@@ -197,3 +197,5 @@ function CTASection() {
         </section>
     );
 }
+
+    
