@@ -4,20 +4,20 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { CheckCircle, Info, DollarSign, Users } from 'lucide-react';
+import { CheckCircle, Info, DollarSign, Users, HardHat, Palette } from 'lucide-react';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://warnagranule.com';
 
 export const metadata: Metadata = {
-  title: 'Panduan Lengkap Playground Aman dengan Lantai Karet EPDM | WarnaGranule',
-  description: 'Panduan lengkap A-Z cara membangun playground anak yang aman, modern, dan sesuai standar SNI. Mulai dari desain, pemilihan mainan, hingga pentingnya lantai karet EPDM.',
-  keywords: ['panduan playground', 'membuat playground', 'playground aman', 'standar playground sni', 'lantai karet epdm', 'biaya pembuatan playground', 'desain playground', 'kontraktor playground'],
+  title: 'Hindari 5 Kesalahan Fatal Ini! Panduan Playground Aman | WarnaGranule',
+  description: 'Jangan sampai salah langkah! Pelajari 5 kesalahan fatal dalam membangun playground dan cara menghindarinya dengan panduan lengkap dari desain hingga lantai karet EPDM.',
+  keywords: ['kesalahan playground', 'playground tidak aman', 'panduan playground', 'membuat playground', 'playground aman', 'standar playground sni', 'lantai karet epdm', 'biaya pembuatan playground', 'desain playground', 'kontraktor playground'],
   alternates: {
     canonical: '/panduan-playground-aman',
   },
   openGraph: {
-    title: 'Panduan Lengkap Playground Aman dengan Lantai Karet EPDM | WarnaGranule',
-    description: 'Panduan A-Z membangun playground anak yang aman dan modern. Pelajari tentang desain, standar SNI, dan pemilihan lantai karet EPDM terbaik.',
+    title: 'Hindari 5 Kesalahan Fatal Ini! Panduan Lengkap Playground Aman',
+    description: 'Dari pemilihan lokasi hingga lantai karet yang salah. Pelajari cara membangun playground yang 100% aman dan lolos standar SNI.',
     url: `${siteUrl}/panduan-playground-aman`,
     siteName: 'WarnaGranule Solutions',
     images: [
@@ -47,17 +47,17 @@ function HeroSection() {
   return (
     <section className="relative w-full py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 md:px-6 text-center">
-        <p className="font-semibold text-accent">PANDUAN LENGKAP</p>
+        <p className="font-semibold text-accent">PERINGATAN UNTUK KONTRAKTOR & PENGEMBANG</p>
         <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl mt-2">
-          Membangun Playground Anak yang Aman & Modern
+          5 Kesalahan Fatal Saat Membangun Playground (Dan Cara Menghindarinya)
         </h1>
         <p className="mx-auto mt-6 max-w-3xl text-lg text-primary-foreground/90 md:text-xl">
-          Dari perencanaan hingga pemilihan material lantai karet EPDM. Pelajari cara menciptakan area bermain yang tidak hanya menyenangkan, tetapi juga memenuhi standar keamanan tertinggi.
+          Dari pemilihan lokasi hingga lantai karet yang salah. Pelajari cara membangun area bermain yang 100% aman, sesuai standar SNI, dan menghindarkan Anda dari risiko di kemudian hari.
         </p>
         <div className="mt-8 flex justify-center">
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
             <a href="#kontak-panduan">
-              Konsultasi Gratis dengan Ahli Kami
+              Dapatkan Solusi dari Ahli
             </a>
           </Button>
         </div>
@@ -81,12 +81,12 @@ function ArticleSection() {
 
         <Image src="https://placehold.co/1200x600" alt="Grafik yang menunjukkan pentingnya permukaan aman di playground" width={1200} height={600} className="w-full rounded-lg shadow-lg my-8" data-ai-hint="safe playground" />
 
-        <h2>Langkah-Langkah Membangun Playground Impian (A-Z)</h2>
-        <p>Berikut adalah 5 langkah krusial yang perlu Anda ikuti untuk mewujudkan playground yang sukses.</p>
+        <h2>Langkah-Langkah Kunci Menghindari Kesalahan Fatal</h2>
+        <p>Berikut adalah 5 langkah krusial yang perlu Anda ikuti untuk mewujudkan playground yang sukses dan bebas masalah.</p>
         
-        <h3>1. Perencanaan & Desain: Fondasi Utama</h3>
+        <h3>1. Kesalahan Perencanaan & Desain: Fondasi yang Rapuh</h3>
         <p>
-          Sebelum membeli satu baut pun, perencanaan matang adalah kuncinya. Pertimbangkan beberapa hal berikut:
+          Kesalahan paling umum adalah terburu-buru tanpa perencanaan matang. Pertimbangkan beberapa hal berikut untuk membangun fondasi yang kokoh:
         </p>
         <ul>
           <li><strong>Lokasi:</strong> Pastikan area tersebut bebas dari bahaya seperti kabel listrik, selokan, atau lalu lintas kendaraan. Permukaan harus rata dan memiliki drainase yang baik.</li>
@@ -95,12 +95,12 @@ function ArticleSection() {
           <li><strong>Tema:</strong> Tema seperti 'petualangan hutan' atau 'luar angkasa' bisa membuat playground lebih menarik dan imajinatif.</li>
         </ul>
 
-        <h3>2. Memilih Peralatan Bermain yang Tepat</h3>
+        <h3>2. Kesalahan Memilih Peralatan Bermain yang Murah & Tidak Standar</h3>
         <p>
-          Pilih peralatan yang terbuat dari material berkualitas, bebas racun, dan tahan cuaca. Pastikan tidak ada ujung yang tajam atau celah yang bisa menjepit. Peralatan harus memiliki sertifikasi keamanan, idealnya yang sesuai dengan <strong>Standar Nasional Indonesia (SNI)</strong>.
+          Memilih peralatan hanya karena harga murah adalah kesalahan fatal. Pilih peralatan yang terbuat dari material berkualitas, bebas racun, dan tahan cuaca. Pastikan tidak ada ujung yang tajam atau celah yang bisa menjepit. Peralatan harus memiliki sertifikasi keamanan, idealnya yang sesuai dengan <strong>Standar Nasional Indonesia (SNI)</strong>.
         </p>
 
-        <h3>3. Faktor Kunci Keamanan: Lantai Karet EPDM</h3>
+        <h3>3. Mengabaikan Faktor Kunci Keamanan: Lantai Karet EPDM</h3>
         <p>
           Inilah elemen terpenting untuk mencegah cedera serius. Permukaan beton, aspal, atau bahkan rumput biasa tidak cukup aman. Lantai karet yang terbuat dari <strong>granule EPDM</strong> adalah standar emas untuk playground modern.
         </p>
@@ -121,12 +121,12 @@ function ArticleSection() {
           <li><strong>Desain Kreatif:</strong> Tersedia dalam berbagai warna cerah, memungkinkan Anda membuat desain lantai yang edukatif dan menyenangkan.</li>
         </ul>
         
-        <h3>4. Memahami Standar Keamanan (SNI)</h3>
+        <h3>4. Buta Terhadap Standar Keamanan (SNI)</h3>
         <p>
-          Pastikan proyek Anda merujuk pada SNI 8124 tentang Keamanan Mainan. Standar ini mencakup berbagai aspek, mulai dari material yang digunakan, desain peralatan, hingga zona aman di sekitar area bermain. Bekerja sama dengan <strong>kontraktor playground</strong> yang memahami SNI adalah sebuah keharusan.
+          Membangun tanpa merujuk pada SNI 8124 tentang Keamanan Mainan adalah resep bencana. Standar ini mencakup berbagai aspek, mulai dari material yang digunakan, desain peralatan, hingga zona aman di sekitar area bermain. Bekerja sama dengan <strong>kontraktor playground</strong> yang memahami SNI adalah sebuah keharusan.
         </p>
         
-        <h3>5. Proses Instalasi Profesional</h3>
+        <h3>5. Melakukan Instalasi Amatir (DIY)</h3>
         <p>
           Material terbaik pun akan sia-sia jika tidak dipasang dengan benar. Proses pemasangan lantai karet membutuhkan keahlian khusus, mulai dari persiapan sub-base (dasar coran), pencampuran material dengan lem, hingga pemadatan. Selalu gunakan <a href="/jasa-pemasangan-lantai-karet">jasa pemasangan lantai karet profesional</a> untuk memastikan hasil yang rata, padat, dan tahan lama.
         </p>
@@ -140,7 +140,7 @@ function ArticleSection() {
         <div className="grid md:grid-cols-2 gap-6 not-prose">
             <Card>
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-2 text-xl font-headline"><HardHatIcon className="w-6 h-6 text-accent" /> Peralatan Bermain</CardTitle>
+                    <CardTitle className="flex items-center gap-2 text-xl font-headline"><HardHat className="w-6 h-6 text-accent" /> Peralatan Bermain</CardTitle>
                 </CardHeader>
                 <CardContent>
                     Ini adalah komponen biaya terbesar, bisa berkisar antara 40% hingga 60% dari total anggaran.
@@ -148,7 +148,7 @@ function ArticleSection() {
             </Card>
             <Card>
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-2 text-xl font-headline"><PaletteIcon className="w-6 h-6 text-accent" /> Permukaan & Lantai</CardTitle>
+                    <CardTitle className="flex items-center gap-2 text-xl font-headline"><Palette className="w-6 h-6 text-accent" /> Permukaan & Lantai</CardTitle>
                 </CardHeader>
                 <CardContent>
                     Biaya untuk lantai karet EPDM, termasuk material dan instalasi. Biasanya sekitar 25% - 40% dari total biaya.
@@ -183,13 +183,13 @@ function CTASection() {
         <section id="kontak-panduan" className="w-full py-16 md:py-24 bg-primary/10 scroll-mt-20">
             <div className="container mx-auto">
                 <div className="max-w-3xl mx-auto text-center">
-                    <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">Wujudkan Playground Aman Impian Anda</h2>
+                    <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">Jangan Ambil Risiko. Wujudkan Playground Aman Impian Anda.</h2>
                     <p className="mt-4 text-lg text-foreground/80">
                         Bingung mulai dari mana? Tim ahli kami di WarnaGranule Solutions siap membantu Anda di setiap langkah. Dari konsultasi desain, pemilihan material EPDM terbaik, hingga rekomendasi kontraktor profesional.
                     </p>
                     <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
-                        <a href="https://wa.me/6285283212205?text=Halo,%20saya%20sudah%20membaca%20panduan%20playground%20dan%20ingin%20berkonsultasi%20lebih%20lanjut." target="_blank" rel="noopener noreferrer">
-                            Hubungi Ahli Playground Kami
+                        <a href="https://wa.me/6285283212205?text=Halo,%20saya%20sudah%20membaca%20panduan%20kesalahan%20playground%20dan%20ingin%20berkonsultasi%20lebih%20lanjut." target="_blank" rel="noopener noreferrer">
+                            Konsultasi Gratis dengan Ahli Playground
                         </a>
                     </Button>
                 </div>
@@ -197,31 +197,3 @@ function CTASection() {
         </section>
     );
 }
-
-// Dummy icons for illustration
-function HardHatIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M2 13a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1H2Z" />
-      <path d="M11.33 2.8c.43-.9 1.4-1.46 2.44-1.46s2.01.56 2.44 1.46" />
-      <path d="M19 10a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-1Z" />
-      <path d="M16 18a4 4 0 0 0-8 0" />
-      <path d="M12 22a1.86 1.86 0 0 0 1.99-2.02c.07-.52-.37-1.04-.9-1.04-1.29 0-2.07.52-2.07 1.55 0 1.03 1.02 1.51 2.02 1.51Z" />
-    </svg>
-  )
-}
-
-function PaletteIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
-      <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
-      <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
-      <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
-      <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.477-1.122-.297-.287-.74-.578-1.17-.652-.43-.074-.86.13-1.16.433-.3.304-.63.633-.89.996-.26.363-.49.756-.69 1.157-.2.402-.33.84-.33 1.306 0 .94.76 1.7 1.7 1.7.94 0 1.7-.76 1.7-1.7 0-.466-.13-.904-.33-1.306-.2-.401-.43-.794-.69-1.157-.26-.363-.59-.692-.89-.996-.3-.303-.73-.507-1.16-.433-.43.074-.873.365-1.17.652-.297.287-.477.685-.477 1.122 0 .942.722 1.688 1.648 1.688 5.5 0 10-4.5 10-10S17.5 2 12 2Z" />
-    </svg>
-  )
-}
-
-
-    
