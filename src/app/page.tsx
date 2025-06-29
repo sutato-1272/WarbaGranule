@@ -28,7 +28,7 @@ function HeroSection() {
           Produsen & Supplier Granule EPDM #1 di Indonesia
         </h1>
         <p className="mx-auto mt-6 max-w-3xl text-lg text-foreground/80 md:text-xl">
-          Solusi Inovatif dan Tahan Lama untuk Playground, Lapangan Olahraga, dan Kebutuhan Industri Anda. <strong>Jual Granule Warna EPDM</strong> dan <strong>Granule Hitam</strong> Kualitas Terbaik.
+          Solusi Inovatif dan Tahan Lama untuk Playground, Lapangan Olahraga, dan Kebutuhan Industri Anda. <strong>Jual Granule Warna EPDM</strong> dan <strong>Granule Hitam SBR</strong> Kualitas Terbaik.
         </p>
         <div className="mt-8 flex justify-center gap-4">
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -56,29 +56,29 @@ function ArticleSection() {
             Dari playground yang aman hingga lapangan olahraga berstandar tinggi, temukan solusi granule EPDM dan SBR terbaik yang kami produksi dan distribusikan untuk setiap kebutuhan proyek Anda.
         </p>
         <p>
-          Selamat datang di pusat solusi <strong>granule EPDM</strong> terlengkap di Indonesia. Kami adalah <strong>produsen granule warna EPDM</strong>, <strong>distributor granule hitam</strong>, sekaligus <strong>supplier granule EPDM</strong> terpercaya yang siap memenuhi segala kebutuhan proyek Anda. Dengan pengalaman bertahun-tahun, kami mendedikasikan diri untuk menyediakan produk berkualitas premium yang tidak hanya estetis, tetapi juga aman, tahan lama, dan ramah lingkungan. Apakah Anda sedang membangun taman bermain anak, lintasan lari profesional, atau lapangan futsal berstandar internasional? Kami memiliki solusi yang tepat. Kami <strong>jual granule warna EPDM</strong> dan <strong>granule hitam</strong> dengan harga kompetitif dan layanan pengiriman ke seluruh pelosok negeri, dari Aceh hingga Papua.
+          Selamat datang di **WarnaGranule Solutions**, pusat solusi **granule EPDM** terlengkap di Indonesia. Sebagai **pabrik granule EPDM** terkemuka, kami juga bertindak sebagai **produsen**, **distributor**, dan **supplier granule warna EPDM** serta **granule hitam SBR** yang terpercaya. Kami siap memenuhi segala kebutuhan proyek Anda dengan produk premium yang aman, tahan lama, dan ramah lingkungan. Apakah Anda mencari penawaran **harga granule EPDM per m2** yang kompetitif untuk playground, atau butuh pasokan untuk lapangan futsal? Kami solusinya. Kami **jual granule** dengan layanan pengiriman ke seluruh Indonesia, dari Aceh hingga Papua.
         </p>
         
         <h3 id="granule-warna">Granule Warna EPDM: Solusi Terbaik untuk Playground & Jogging Track</h3>
         <p>
-          Ketika berbicara tentang keamanan dan estetika untuk area rekreasi, <strong>granule warna EPDM</strong> adalah jawabannya. Material ini menjadi pilihan utama bagi para kontraktor dan pengembang fasilitas publik karena fleksibilitas dan keunggulannya yang tak tertandingi. Sebagai <strong>pabrik granule warna EPDM</strong> terkemuka, kami memastikan setiap butir granule yang kami produksi memenuhi standar kualitas dan keamanan tertinggi.
+          Ketika berbicara tentang keamanan dan estetika untuk area rekreasi, **granule warna EPDM** adalah jawabannya. Material ini menjadi pilihan utama bagi para kontraktor dan pengembang fasilitas publik karena fleksibilitas dan keunggulannya yang tak tertandingi. Sebagai **pabrik granule warna EPDM** terkemuka, kami memastikan setiap butir granule yang kami produksi memenuhi standar kualitas dan keamanan tertinggi.
         </p>
         <Image src="https://placehold.co/1200x600" alt="Playground anak-anak dengan lantai granule warna EPDM" width={1200} height={600} className="w-full rounded-lg shadow-lg" data-ai-hint="colorful playground" />
 
         <h4 className="mt-8">Keunggulan Utama Granule Warna EPDM dari Kami</h4>
         <p>
-          Memilih <strong>supplier granule warna EPDM</strong> yang tepat adalah kunci keberhasilan proyek Anda. Berikut adalah alasan mengapa produk kami menjadi pilihan terbaik di pasar:
+          Memilih **supplier granule warna EPDM** yang tepat adalah kunci keberhasilan proyek Anda. Berikut adalah alasan mengapa produk kami menjadi pilihan terbaik di pasar:
         </p>
         <ul>
           <li><strong>Tahan Lama dan Tahan Cuaca Ekstrem:</strong> Dibuat dari bahan EPDM (Ethylene Propylene Diene Monomer) murni, granule kami memiliki ketahanan luar biasa terhadap sinar UV, hujan, dan perubahan suhu. Warna tidak akan pudar dan permukaan tidak akan retak meski terpapar cuaca ekstrem selama bertahun-tahun.</li>
           <li><strong>Pilihan Warna Cerah dan Menarik:</strong> Kami menyediakan palet warna yang luas, mulai dari hijau, merah, biru, kuning, hingga oranye. Ini memungkinkan Anda menciptakan desain playground atau jogging track yang kreatif, menarik, dan sesuai tema yang diinginkan.</li>
-          <li><strong>Keamanan Adalah Prioritas:</strong> Permukaan yang terbuat dari <strong>granule EPDM</strong> memiliki sifat peredam benturan (impact-absorbing) yang sangat baik. Ini secara signifikan mengurangi risiko cedera saat anak-anak terjatuh. Permukaannya juga anti-slip, sehingga aman digunakan bahkan dalam kondisi basah.</li>
+          <li><strong>Keamanan Adalah Prioritas:</strong> Permukaan yang terbuat dari **granule EPDM** memiliki sifat peredam benturan (impact-absorbing) yang sangat baik. Ini secara signifikan mengurangi risiko cedera saat anak-anak terjatuh. Permukaannya juga anti-slip, sehingga aman digunakan bahkan dalam kondisi basah.</li>
           <li><strong>Ramah Lingkungan dan Bebas Racun:</strong> Kami berkomitmen pada keberlanjutan. Granule kami diproduksi menggunakan bahan baku berkualitas dan tidak mengandung zat berbahaya (non-toxic), sehingga aman untuk anak-anak dan lingkungan sekitar.</li>
         </ul>
         
         <h4>Aplikasi Granule Warna EPDM</h4>
         <p>
-          Fleksibilitas produk kami memungkinkannya digunakan dalam berbagai aplikasi. Sebagai <strong>distributor granule warna EPDM</strong> dengan jangkauan nasional, kami telah melayani berbagai proyek:
+          Fleksibilitas produk kami memungkinkannya digunakan dalam berbagai aplikasi. Sebagai **distributor granule warna EPDM** dengan jangkauan nasional, kami telah melayani berbagai proyek:
         </p>
         <ul>
             <li><strong>Taman Bermain (Playground):</strong> Baik untuk sekolah (TK, SD), perumahan, maupun fasilitas umum.</li>
@@ -88,18 +88,18 @@ function ArticleSection() {
             <li><strong>Lantai Multifungsi:</strong> Untuk area senam, studio yoga, atau area rekreasi lainnya.</li>
         </ul>
         <p>
-          Kami <strong>jual granule warna EPDM</strong> dalam berbagai kemasan yang dapat disesuaikan dengan volume proyek Anda. Hubungi tim kami untuk konsultasi mengenai <strong>harga granule EPDM per m2</strong> atau per kg.
+          Kami **jual granule warna EPDM** dalam berbagai kemasan yang dapat disesuaikan dengan volume proyek Anda. Hubungi tim kami untuk konsultasi mengenai **harga granule EPDM per m2** atau per kg.
         </p>
 
         <h3 id="granule-hitam">Granule Hitam (SBR): Solusi Andal untuk Lapangan Futsal & Mini Soccer</h3>
         <p>
-          Untuk lapangan olahraga yang membutuhkan daya tahan tinggi dan performa optimal, <strong>granule hitam</strong> atau yang sering disebut granule SBR (Styrene-Butadiene Rubber) adalah pilihan yang paling efisien dan ekonomis. Sebagai <strong>produsen granule hitam</strong> yang berpengalaman, kami mengolah bahan baku karet daur ulang berkualitas tinggi menjadi granule yang sempurna untuk infill rumput sintetis.
+          Untuk lapangan olahraga yang membutuhkan daya tahan tinggi dan performa optimal, **granule hitam** atau yang sering disebut granule SBR (Styrene-Butadiene Rubber) adalah pilihan yang paling efisien dan ekonomis. Sebagai **produsen granule hitam** yang berpengalaman, kami mengolah bahan baku karet daur ulang berkualitas tinggi menjadi granule yang sempurna untuk infill rumput sintetis.
         </p>
         <Image src="https://placehold.co/1200x600" alt="Lapangan futsal dengan rumput sintetis dan infill granule hitam" width={1200} height={600} className="w-full rounded-lg shadow-lg" data-ai-hint="futsal field" />
         
         <h4 className="mt-8">Keunggulan Granule Hitam Produksi Kami</h4>
         <p>
-            Memilih kami sebagai <strong>supplier granule hitam</strong> Anda berarti Anda berinvestasi pada kualitas dan durabilitas. 
+            Memilih kami sebagai **supplier granule hitam** Anda berarti Anda berinvestasi pada kualitas dan durabilitas. 
         </p>
         <ul>
             <li><strong>Stabilitas dan Performa Lapangan:</strong> Granule hitam berfungsi sebagai infill yang memberikan stabilitas pada serat rumput sintetis, menjaganya tetap tegak. Ini memastikan bola dapat memantul dan bergulir dengan konsisten, layaknya di lapangan rumput alami.</li>
@@ -108,12 +108,12 @@ function ArticleSection() {
             <li><strong>Aplikasi Serbaguna:</strong> Selain untuk infill rumput sintetis, granule hitam juga sering digunakan sebagai lapisan dasar (base layer) untuk sistem lantai karet, memberikan tambahan bantalan dan ketahanan.</li>
         </ul>
         <p>
-          Sebagai <strong>pabrik granule hitam</strong> yang berfokus pada kualitas, kami memastikan setiap produk bebas dari kontaminan logam atau material berbahaya lainnya. Proses produksi kami yang canggih menjamin ukuran granule yang seragam untuk hasil pemasangan yang sempurna.
+          Sebagai **pabrik granule hitam** yang berfokus pada kualitas, kami memastikan setiap produk bebas dari kontaminan logam atau material berbahaya lainnya. Proses produksi kami yang canggih menjamin ukuran granule yang seragam untuk hasil pemasangan yang sempurna.
         </p>
 
         <h3 id="mesh-20">Mesh 20 EPDM: Performa Unggul untuk Cairan Ban Tubeless</h3>
         <p>
-          Tidak hanya berfokus pada lantai rekreasi, kami juga merambah ke sektor industri otomotif dengan menyediakan <strong>Mesh 20 EPDM</strong>. Ini adalah bubuk karet EPDM super halus yang menjadi komponen krusial dalam pembuatan cairan anti-bocor untuk ban tubeless.
+          Tidak hanya berfokus pada lantai rekreasi, kami juga merambah ke sektor industri otomotif dengan menyediakan **Mesh 20 EPDM**. Ini adalah bubuk karet EPDM super halus yang menjadi komponen krusial dalam pembuatan cairan anti-bocor untuk ban tubeless.
         </p>
         <h4>Mengapa Mesh 20 EPDM Kami Pilihan Terbaik?</h4>
         <ul>
@@ -131,8 +131,8 @@ function ArticleSection() {
 function ProductComparisonTable() {
     return (
         <>
-            <h3>Perbandingan Cepat Produk Granule Kami</h3>
-            <div className="overflow-x-auto">
+            <h3 className="not-prose">Perbandingan Cepat Produk Granule Kami</h3>
+            <div className="overflow-x-auto not-prose">
                 <Table className="my-8">
                     <TableHeader>
                         <TableRow>
@@ -345,3 +345,5 @@ function CTASection() {
         </section>
     );
 }
+
+    
