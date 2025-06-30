@@ -4,7 +4,8 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { CheckCircle, Info, DollarSign, Users, HardHat, Palette } from 'lucide-react';
+import { CheckCircle, Info, DollarSign, Users, HardHat, Palette, PenSquare } from 'lucide-react';
+import Link from 'next/link';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://warnagranule.com';
 
@@ -80,6 +81,21 @@ function ArticleSection() {
         </p>
 
         <Image src="https://placehold.co/1200x600" alt="Grafik yang menunjukkan pentingnya permukaan aman di playground" width={1200} height={600} className="w-full rounded-lg shadow-lg my-8" data-ai-hint="safe playground" />
+
+        <div className="not-prose my-12 p-6 border-l-4 border-accent bg-primary/5 rounded-r-lg shadow-md">
+            <div className='flex items-start gap-4'>
+                <PenSquare className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
+                <div>
+                    <h4 className="font-headline text-xl !text-primary !mt-0">Jadikan Konten Sebagai Aset Anda</h4>
+                    <p className="!my-2 text-foreground/90">
+                        Suka dengan cara penyajian dan kualitas artikel ini? Ini adalah contoh nyata dari layanan jasa posting artikel SEO kami. Kami tidak hanya menulis, kami membangun halaman yang dioptimalkan secara teknis untuk mendatangkan traffic.
+                    </p>
+                    <Link href="/jasa-posting-artikel" className="font-bold text-accent hover:underline">
+                        Pelajari Layanan Jasa Artikel SEO Profesional Kami &rarr;
+                    </Link>
+                </div>
+            </div>
+        </div>
 
         <h2>Langkah-Langkah Kunci Menghindari Kesalahan Fatal</h2>
         <p>Berikut adalah 5 langkah krusial yang perlu Anda ikuti untuk mewujudkan playground yang sukses dan bebas masalah.</p>
@@ -197,5 +213,3 @@ function CTASection() {
         </section>
     );
 }
-
-    
