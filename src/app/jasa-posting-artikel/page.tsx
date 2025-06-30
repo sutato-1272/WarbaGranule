@@ -10,7 +10,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://warnagranule.com';
 export const metadata: Metadata = {
   title: 'Jasa Posting Artikel SEO Profesional | Tingkatkan Peringkat Google',
   description: 'Layanan jasa posting artikel SEO profesional yang ditulis oleh ahli. Bukan sekadar teks AI, kami membangun halaman yang dioptimalkan secara teknis untuk hasil maksimal di Google.',
-  keywords: ['jasa posting artikel', 'jasa artikel seo', 'penulis artikel seo', 'beli artikel seo', 'jasa konten website'],
+  keywords: ['jasa posting artikel', 'jasa artikel seo', 'layanan penulisan artikel', 'harga artikel seo', 'jasa konten website', 'beli artikel seo'],
   alternates: {
     canonical: '/jasa-posting-artikel',
   },
@@ -282,5 +282,3 @@ function CTASection() {
         </section>
     );
 }
-
-    
