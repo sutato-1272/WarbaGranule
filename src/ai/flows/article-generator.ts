@@ -9,7 +9,7 @@
  */
 
 import {ai} from '@/ai/genkit';
-import {z} from 'genkit';
+import {z} from 'zod';
 
 // This defines the inputs for our "Master Prompt"
 export const ArticleGeneratorInputSchema = z.object({

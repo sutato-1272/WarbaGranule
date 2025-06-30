@@ -91,7 +91,7 @@ function ArticleSection() {
                         Suka dengan cara penyajian dan kualitas artikel ini? Ini adalah contoh nyata dari layanan jasa posting artikel SEO kami. Kami tidak hanya menulis, kami membangun halaman yang dioptimalkan secara teknis untuk mendatangkan traffic.
                     </p>
                     <Link href="/jasa-posting-artikel" className="font-bold text-accent hover:underline">
-                        Pelajari Layanan Jasa Artikel SEO Profesional Kami &rarr;
+                        Pelajari Layanan Jasa Artikel SEO Profesional Kami →
                     </Link>
                 </div>
             </div>
