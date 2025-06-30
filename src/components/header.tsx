@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/#produk', label: 'Produk' },
   { href: '/jasa-pemasangan-lantai-karet', label: 'Jasa Pemasangan' },
   { href: '/jasa-posting-artikel', label: 'Jasa Artikel' },
+  { href: '/blog', label: 'Blog' },
   { href: '/#faq', label: 'FAQ' },
 ];
 
@@ -93,5 +94,3 @@ export function Header() {
     </header>
   );
 }
-
-    
