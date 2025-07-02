@@ -12,6 +12,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: 'Panduan Lengkap Pemasangan Lantai Karet EPDM: Dari Persiapan Hingga Finishing',
+    description: 'Ingin tahu proses pemasangan lantai karet EPDM? Panduan langkah demi langkah ini membahas semua dari persiapan sub-base hingga finishing.',
+    href: '/blog/panduan-pemasangan-lantai-karet-epdm',
+    imageUrl: 'https://placehold.co/600x400',
+    imageAlt: 'Proses pemasangan lantai karet EPDM',
+    imageHint: 'rubber flooring installation',
+    category: 'Panduan Teknis'
+  },
+  {
     title: 'Mengapa Jasa Artikel SEO Profesional Mengalahkan Konten AI? 5 Alasan Krusial',
     description: 'Anda sudah mencoba ChatGPT, tapi hasilnya biasa saja. Inilah 5 alasan fundamental mengapa sentuhan strategis dari seorang ahli SEO masih tak tergantikan.',
     href: '/blog/mengapa-jasa-artikel-seo-mengalahkan-ai',
