@@ -2,12 +2,26 @@
 
 Ini adalah proyek awal Next.js yang dibuat di Firebase Studio.
 
+## Cara Mendapatkan Kunci API Google (Gemini)
+
+Untuk menggunakan fitur AI di aplikasi ini, Anda memerlukan Kunci API dari Google. Berikut cara mendapatkannya (proses ini gratis):
+
+1.  **Buka Google AI Studio**: Kunjungi halaman ini dengan mengklik link berikut: [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
+2.  **Masuk dengan Akun Google**: Jika diminta, masuk menggunakan akun Google Anda.
+3.  **Buat Kunci API**: Klik tombol **"Create API key"**.
+4.  **Pilih Proyek Baru**: Pilih opsi untuk membuat kunci di proyek baru (**"Create API key in new project"**).
+5.  **Salin Kunci Anda**: Sebuah Kunci API akan dibuat. Ini adalah serangkaian teks panjang. **Salin (copy)** kunci tersebut dan simpan sementara di tempat aman.
+
+Setelah Anda memiliki kunci ini, ikuti langkah-langkah di bawah untuk mengkonfigurasi proyek Anda.
+
+---
+
 ## Konfigurasi Penting: Kunci API Gemini
 
-Agar fitur cerdas di aplikasi ini (seperti **Kalkulator Estimasi Material**) dapat berfungsi, Anda **wajib** menambahkan Kunci API (API Key) dari Google.
+Agar fitur cerdas di aplikasi ini (seperti **Kalkulator Estimasi Material**) dapat berfungsi, Anda **wajib** menambahkan Kunci API yang sudah Anda dapatkan.
 
 ### 1. Konfigurasi Lokal (Untuk Preview di Komputer Anda)
-- **Dapatkan Kunci API Anda**: Kunjungi [Google AI Studio](https://aistudio.google.com/app/apikey) dan buat Kunci API baru. Proses ini gratis.
+- **Dapatkan Kunci API Anda**: Ikuti panduan "Cara Mendapatkan Kunci API Google (Gemini)" di atas.
 - **Atur di Proyek**: Buka file `.env` yang ada di folder utama proyek ini. Tempel (paste) Kunci API yang sudah Anda salin ke dalam variabel `GOOGLE_API_KEY`.
 
 Contoh isi file `.env`:
